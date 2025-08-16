@@ -1,0 +1,46 @@
+## ??? API Endpoints
+### **Test Case Execution KPI**
+`GET /api/testcase/execution?startDate=YYYY-MM-DD&endDate=YYYY-MM-DD&module=ModuleName`
+
+### **Defect Status KPI**
+`GET /api/defects/status`
+
+### **Download Reports**
+`GET /api/reports/{type}` ? `type` = pdf | excel | csv
+
+## ??? Screenshots
+![Dashboard Screenshot](docs/dashboard.png)
+
+## ??? Architecture Diagram
+![Architecture](docs/architecture-diagram.png)
+
+## ?? How to Run
+### Backend (Spring Boot)
+```bash
+cd backend
+mvn spring-boot:run
+Frontend (Angular 19)
+bash
+cd frontend
+npm install
+ng serve
+Visit: http://localhost:4200
+
+?? Testing
+bash
+mvn test
+?? License
+MIT License - feel free to use this project.
+
+
+---
+
+## **3?? Add GitHub Badges**
+Use [shields.io](https://shields.io) to make your repo look professional.
+
+Example for top of README:
+```markdown
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.0-brightgreen)
+![Angular](https://img.shields.io/badge/Angular-19-red)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
