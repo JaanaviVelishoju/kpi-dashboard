@@ -12,7 +12,7 @@ It supports interactive charts, filtering, and downloadable reports in PDF/Excel
 - 📥 Download reports (PDF/Excel/CSV)
 - 🔄 Backend REST API using Spring Boot
 - 🎨 Frontend in Angular 19
-- 🗄️ Database: Oracle / MySQL
+- 🗄️ Database: Oracle / MySQL (or H2 for testing)
 - 🧪 Unit & Integration Testing (JUnit, Mockito, H2 DB)
 
 
@@ -44,7 +44,9 @@ It supports interactive charts, filtering, and downloadable reports in PDF/Excel
 ### Backend (Spring Boot)
 ```bash
 cd backend
+mvn clean install
 mvn spring-boot:run
+http://localhost:8081
 
 **Frontend (Angular 19)**
 cd frontend
@@ -58,15 +60,30 @@ mvn test
 📜 License
 MIT License - feel free to use this project.
 
-yaml
----
+
 
 ## **3️⃣ Add GitHub Badges**
 Use [shields.io](https://shields.io) to make your repo look professional.
 
-Example for top of README:
-```markdown
+
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.0-brightgreen)
 ![Angular](https://img.shields.io/badge/Angular-19-red)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+
+Role & Responsibilities:
+Designed & developed backend APIs using Spring Boot.
+
+Built Angular dashboard UI with KPI charts & filters.
+
+Implemented PDF/Excel/CSV report downloads.
+
+Wrote unit & integration tests.
+
+**Author**
+
+Jaanavi Velishou | Full Stack Java Developer
+
+📧 Email: jaanavivelishoju@gmail.com
+
+🔗 LinkedIn: Your LinkedIn
