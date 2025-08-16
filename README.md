@@ -45,10 +45,8 @@ It supports interactive charts, filtering, and downloadable reports in PDF/Excel
 ```bash
 cd backend
 mvn spring-boot:run
-Frontend (Angular 19)
-bash
-Copy
-Edit
+
+**Frontend (Angular 19)**
 cd frontend
 npm install
 ng serve
